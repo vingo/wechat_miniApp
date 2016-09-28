@@ -1,12 +1,11 @@
 //list.js
 //获取应用实例
 var app = getApp();
-var util = require('../../utils/util.js');
-var users=util.getUsers();
+var arr=[{name:'vingo',id:1,avatar:''},{name:'hello',id:2,avatar:''},{name:'cat',id:3,avatar:''},{name:'andor',id:4,avatar:''},{name:'daniel',id:5,avatar:''}];
 Page({
   data: {
     name: 'user list',
-    users: users
+    users: arr
   },
   //事件处理函数
   /*bindViewTap: function() {   

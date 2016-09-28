@@ -19,6 +19,11 @@ Page({
       url: '../list/list'
     })
   },
+  bindViewWeather: function() {
+    wx.navigateTo({
+      url: '../weather/weather'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

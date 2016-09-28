@@ -2,12 +2,40 @@
   "pages":[
     "pages/index/index",
     "pages/list/list",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/weather/weather"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "tabBar":{
+    "color":"#dddddd",
+    "selectdColor":"#3cc51f",
+    "borderStyle":"black",
+    "backgroundColor":"#ffffff"
+  ,"list":[
+    {
+      "pagePath":"pages/index/index",
+      "iconPath":"image/main.png",
+      "selectedIconPath":"image/main.png",
+      "text":"主页"
+      },{
+    "pagePath":"pages/logs/logs",
+    "iconPath":"image/log.png",
+    "selectedIconPath":"image/log.png",
+    "text":"日志"
+  },{
+    "pagePath":"pages/weather/weather",
+    "iconPath":"image/log.png",
+    "selectedIconPath":"image/log.png",
+    "text":"天气"
+  }]
+},
+  "networkTimeout": { 
+    "request": 5000
+  },
+   "debug": true
 }

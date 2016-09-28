@@ -1,0 +1,9 @@
+  <view class='weather'>
+          <text class="user-item">city:{{weather.city_name}}</text>
+          <!--<text class="user-item">weather:{{weather.dat_condition}}</text>
+          <text class="user-item">wind:{{weather.wind_direction}}</text>
+           <text class="user-item">wind_level:{{weather.wind_level}}</text>
+          <text class="user-item">high_temperature:{{weather.high_temperature}}</text>
+          <text class="user-item">low_temperature:{{weather.low_temperature}}</text>
+          <text class="user-item">wind_level:{{weather.wind_level}}</text>-->
+      </view>
