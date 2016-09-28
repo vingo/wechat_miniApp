@@ -1,0 +1,7 @@
+<!--list.wxml-->
+  <view class="container user">
+     <block wx:for="{{users}}" wx:for-item="user">
+        <text class="user-item">{{user.id}}.{{user.name}}</text>
+        <!--<image class="" src="{{user.avatar}}" background-size="cover"></image>-->
+    </block>
+  </view>

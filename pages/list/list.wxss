@@ -1,0 +1,10 @@
+.user {
+     margin-bottom: 5px;
+     margin-top: 5px;
+    flex-direction: column;
+}
+
+.user-item {
+  margin-top: 10px;
+}
+
