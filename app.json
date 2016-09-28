@@ -32,6 +32,11 @@
     "iconPath":"image/log.png",
     "selectedIconPath":"image/log.png",
     "text":"天气"
+  },{
+    "pagePath":"pages/list/list",
+    "iconPath":"image/log.png",
+    "selectedIconPath":"image/log.png",
+    "text":"用户列表"
   }]
 },
   "networkTimeout": { 
