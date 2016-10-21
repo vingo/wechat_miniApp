@@ -7,6 +7,9 @@ Page({
     list:[1,2,3,4],
     user:{id:1}
   },
+  hello:function(e){
+      console.log('>>>>>>>>>>>>>>>>>>>>>',e.target.dataset);//获取client 属性
+  },
   bindViewWeather: function() {
     wx.navigateTo({
       url: '../weather/weather'

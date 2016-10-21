@@ -17,6 +17,10 @@
     <navigator url='list?title=navigate' hover-class="navigator-hover"  >跳转到新页面</navigator>
 </view>
 
+<view class="abc">
+    <text bindtap="hello" data-i="1" data-u-name="vingo" >click</text>
+</view>
+
 
 <!--模版 items-->
 <template name="itmes">
