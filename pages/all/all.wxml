@@ -23,14 +23,16 @@
 
 
 <!--模版 items-->
-<template name="itmes">
+<!--<template name="itmes">
     <view class="container3">
         <text>模版</text>
         <text>id:{{id}}</text>
     </view>
-</template>
+</template>-->
+
+<import src='template.wxml'/>
 <!--模版使用-->
-<template is="itmes" data="{{...user}}" />
+<template is="t1" data="{{...user}}" />
 
 
 

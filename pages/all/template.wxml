@@ -1,0 +1,8 @@
+<!--模版 t1-->
+<template name="t1">
+    <view class="c1">
+        <text>public模版</text>
+        <text>id:{{id}}</text>
+    </view>
+</template>
+
