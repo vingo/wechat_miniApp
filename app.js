@@ -21,11 +21,10 @@ App({
             }
           })
         }
-      })
+      });
     }
   },
   globalData:{
-    userInfo:null,
-    weather:{}
+    userInfo:null
   }
 });

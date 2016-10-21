@@ -1,0 +1,41 @@
+<!--detail.wxml-->
+<view class="container text">
+{{page}}
+</view>
+
+<view class="container2 List foreach">
+    <!--循环渲染列表 begin-->
+    <block wx:for="{{list}}" wx:for-item="l">
+        <text>{{l}}</text>
+    </block>
+    <!--循环渲染列表 end-->
+</view>
+
+
+
+<view class="container2 redirect">
+    <navigator url='list?title=navigate' hover-class="navigator-hover"  >跳转到新页面</navigator>
+</view>
+
+
+<!--模版 items-->
+<template name="itmes">
+    <view class="container3">
+        <text>模版</text>
+        <text>id:{{id}}</text>
+    </view>
+</template>
+<!--模版使用-->
+<template is="itmes" data="{{...user}}" />
+
+
+
+
+
+
+
+
+
+
+
+

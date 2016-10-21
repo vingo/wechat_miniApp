@@ -1,9 +1,11 @@
 {
   "pages":[
+    
     "pages/index/index",
     "pages/list/list",
     "pages/logs/logs",
-    "pages/weather/weather"
+    "pages/weather/weather",
+    "pages/all/all"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -25,18 +27,23 @@
       },{
     "pagePath":"pages/logs/logs",
     "iconPath":"image/log.png",
-    "selectedIconPath":"image/log.png",
+    "selectedIconPath":"image/log_1.png",
     "text":"日志"
   },{
     "pagePath":"pages/weather/weather",
     "iconPath":"image/log.png",
-    "selectedIconPath":"image/log.png",
+    "selectedIconPath":"image/weather.png",
     "text":"天气"
   },{
     "pagePath":"pages/list/list",
     "iconPath":"image/log.png",
     "selectedIconPath":"image/log.png",
     "text":"用户列表"
+  },{
+    "pagePath":"pages/all/all",
+    "iconPath":"image/log.png",
+    "selectedIconPath":"image/log.png",
+    "text":"All"
   }]
 },
   "networkTimeout": { 

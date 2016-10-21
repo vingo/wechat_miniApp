@@ -13,9 +13,14 @@
     <text class="user-motto">weather</text>
   </view>
 
+
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+
+  <view class="container2">
+    <navigator url='list?title=navigate' hover-class="navigator-hover"  >跳转到新页面</navigator>
+</view>
 
 
 
